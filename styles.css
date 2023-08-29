@@ -1,0 +1,134 @@
+body{
+    padding: 0%;
+    margin: 0%;
+}
+.container  {
+    font-family: Roboto, sans-serif;
+    background-color:darkgrey;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    place-items: center;
+}
+.header{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background-color: rgb(202, 201, 201);
+    width: 100%;
+    padding-top: 1rem;
+}
+h1,h2{
+    font-family: fantasy;
+    display: inline-block;
+    vertical-align: 50px;
+    justify-content: center;
+}
+.navegacion{ 
+    padding: 0%;
+    margin: 0%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+a{
+    text-decoration: solid;
+    color: black;
+    font-size: large;
+    font-family:  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-color: darkgray;
+    font-size: 20px;
+}
+a:hover{
+    color: rgb(111, 138, 184);
+}
+.inicio-btn, .necesidades-btn, .tipos-btn{
+    text-decoration: none;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+}
+.inicio-btn:hover{
+    background-color: green;
+    color: white;
+}
+.necesidades-btn:hover{
+    background-color: royalblue;
+    color: white;
+}
+.tipos-btn:hover{
+    background-color: crimson;
+    color: white;
+}
+section{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.records{
+    display: flex;
+    padding: 1rem;
+    width: 100%;
+    
+}
+.vidrecords{
+    width: 100%;
+}
+iframe{
+    width: 40vw;
+}
+.info{
+    padding: 1rem;
+}
+.inicio, .necesidades, .tipos, .resolver{
+    background-color: rgb(202, 201, 201);
+    border-radius: 10px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+h3{
+    font-family:  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+}
+.titinicio{
+    background-color: green;
+    color: wheat;
+    border-radius: 10px;
+    padding: 1rem;
+}
+.titnecesidades{
+    background-color: royalblue;
+    color: wheat;
+    border-radius: 10px;
+    padding: 1rem;
+}
+.titresolver{
+    background-color: rgb(202, 176, 25);
+    color: wheat;
+    border-radius: 10px;
+    padding: 1rem;
+}
+.tittipos{
+    background-color: crimson;
+    color: wheat;
+    border-radius: 10px;
+    padding: 1rem;
+}
+.imgcubos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.imgcubostm{
+    width: 17vw;
+}
+strong{
+    font-size: 20px;
+}
+p{
+    font-size: 20px;
+}
